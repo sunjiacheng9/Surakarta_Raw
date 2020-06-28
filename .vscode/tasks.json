@@ -1,0 +1,35 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "build",
+			"command": "g++-9",
+			"args": [
+				"-g",
+				"ArrayList.cpp",
+				"ArrayList.h",
+				"basic.h",
+				"chessboard.cpp",
+				"chessboard.h",
+				"move_generator.cpp",
+				"search_engine.cpp",
+				"search_engine.h",
+				"evaluator.cpp",
+				"test.cpp",
+				"test.h",
+				"main.cpp",
+				"-o",
+				"main",
+				"-Wall"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		}
+	]
+}
