@@ -1,22 +1,4 @@
-﻿  chessboard.cpp
-C:\Users\Edward\source\repos\sunjiacheng9\Surakarta_Raw\chessboard.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-  evaluator.cpp
-C:\Users\Edward\source\repos\sunjiacheng9\Surakarta_Raw\chessboard.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-  main.cpp
-C:\Users\Edward\source\repos\sunjiacheng9\Surakarta_Raw\chessboard.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-  move_generator.cpp
-C:\Users\Edward\source\repos\sunjiacheng9\Surakarta_Raw\chessboard.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-  search_engine.cpp
+﻿  search_engine.cpp
 C:\Users\Edward\source\repos\sunjiacheng9\Surakarta_Raw\chessboard.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
 C:\Users\Edward\source\repos\sunjiacheng9\Surakarta_Raw\search_engine.cpp(45,9): warning C4101: “flag”: 未引用的局部变量
-  test.cpp
-C:\Users\Edward\source\repos\sunjiacheng9\Surakarta_Raw\chessboard.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-C:\Users\Edward\source\repos\sunjiacheng9\Surakarta_Raw\test.cpp(25,16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\Edward\source\repos\sunjiacheng9\Surakarta_Raw\test.cpp(35,17): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\Edward\source\repos\sunjiacheng9\Surakarta_Raw\test.cpp(43,9): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\Edward\source\repos\sunjiacheng9\Surakarta_Raw\test.cpp(81,16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\Edward\source\repos\sunjiacheng9\Surakarta_Raw\test.cpp(83,10): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\Edward\source\repos\sunjiacheng9\Surakarta_Raw\test.cpp(88,17): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\Edward\source\repos\sunjiacheng9\Surakarta_Raw\test.cpp(99,13): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  正在生成代码...
   Surakarta_Raw_Null_Move.vcxproj -> C:\Users\Edward\Source\Repos\sunjiacheng9\Surakarta_Raw\Debug\Surakarta_Raw_Null_Move.exe

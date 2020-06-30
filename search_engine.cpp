@@ -74,13 +74,13 @@ int  Chessboard::alphaBetaNullMove(int depth, int alpha, int beta, int minimaxPl
     Move_Generate(move_array, -minimaxPlayer);
     singleMove x;
     ArrayList store;
-    while (move_array.size())
+    if (move_array.size())
     {
         move_array.pop(x);
         origin = makeMove(x, -minimaxPlayer);
         val = -alphaBeta(depth - 1 - 2, -beta, -beta + 1, minimaxPlayer);
         unMakeMove(x, -minimaxPlayer, origin);
-        if (val >= beta)
+         if (val >= beta)
             return beta;
     }
     Move_Generate(move_array, minimaxPlayer);
