@@ -29,6 +29,7 @@ public:
     int Evaluate(int who_test);
     int alphaBeta(int depth, int alpha, int beta, int minimaxPlayer);
     singleMove alphaBetaMove(int depth, int alpha, int beta, int minimaxPlayer);
+    int alphaBetaNullMove(int depth, int alpha, int beta, int minimaxPlayer);
     bool isLegal(int from_x,int from_y,int to_x,int to_y);
     void AI(stack <eachRound>&round,int depth);
     void store();

@@ -103,7 +103,7 @@ void test::testAlphaBeta(){
 
         int alpha=-INT_MAX,beta=INT_MAX;
         for(int a=1;a<=7;a++){
-            int vl= myboard.alphaBeta(a,alpha,beta,-1);
+            int vl= myboard.alphaBetaNullMove(a,alpha,beta,-1);
             data[a-1]=-vl;
         }
         for(int e=0;e<7;e++){

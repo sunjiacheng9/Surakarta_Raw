@@ -63,7 +63,40 @@ singleMove Chessboard::alphaBetaMove(int depth, int alpha, int beta, int minimax
     cout<<-alpha<<endl;
     return best_move;
 }
-
+int  Chessboard::alphaBetaNullMove(int depth, int alpha, int beta, int minimaxPlayer) {
+    if (depth <= 0 || judge())
+    {
+        int value = Evaluate_test(minimaxPlayer);
+        return value;
+    }
+    int val, origin;
+    ArrayList move_array;
+    Move_Generate(move_array, -minimaxPlayer);
+    singleMove x;
+    ArrayList store;
+    while (move_array.size())
+    {
+        move_array.pop(x);
+        origin = makeMove(x, -minimaxPlayer);
+        val = -alphaBeta(depth - 1 - 2, -beta, -beta + 1, minimaxPlayer);
+        unMakeMove(x, -minimaxPlayer, origin);
+        if (val >= beta)
+            return beta;
+    }
+    Move_Generate(move_array, minimaxPlayer);
+    while (move_array.size())
+    {
+        move_array.pop(x);
+        origin = makeMove(x, minimaxPlayer);
+        val = -alphaBeta(depth - 1, -beta, -alpha, -minimaxPlayer);
+        unMakeMove(x, minimaxPlayer, origin);
+        if (val >= beta)
+            return beta;
+        if (val > alpha)
+            alpha = val;
+    }
+    return alpha;
+}
 void Chessboard::AI(stack <eachRound>&round,int depth){
     singleMove bestMove=alphaBetaMove(depth,-INT_MAX,INT_MAX,side);
     eachRound r{bestMove.from.x,bestMove.from.y,board[bestMove.from.x][bestMove.from.y],bestMove.to.x,bestMove.to.y,board[bestMove.to.x][bestMove.to.y]};

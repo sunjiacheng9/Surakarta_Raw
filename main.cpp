@@ -4,7 +4,7 @@
 int main() {
     
     test exam;
-    exam.run_test(MG,1000);
+    exam.run_test(AB,1);
      
     /*
     UI interface;
